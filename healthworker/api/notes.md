@@ -6,6 +6,6 @@ retrieve update and delete
 http methods(client side)
 - get, post, put, patch, delete
 
-data types and validatio
+data types and validation
 - json -> serializer (makes data consistent)
 - validation -> serializer
