@@ -19,4 +19,5 @@ from django.contrib import admin
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^api/healthworker/', include('healthworker.api.urls', namespace='api-healthworker')),
+    url(r'^authportal/', include('authportal.urls')),
 ]
